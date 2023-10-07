@@ -8,6 +8,8 @@
 <img src="https://img.shields.io/packagist/stars/codeboxr/pathao-courier">
 </p>
 
+> # Update: Laravel 9 & 10 Support Now
+
 This is a Laravel/PHP package for [Pathao](https://pathao.com) BD Courier System. This package can be used in laravel or without laravel/php projects. You can use this package for headless/rest implementation as well as blade or regular mode development. We created this package while working for a project and thought to made it release for all so that it helps. This package is available as regular php [composer package](https://packagist.org/packages/codeboxr/pathao-courier).
 
 ## Features
@@ -29,7 +31,17 @@ This is a Laravel/PHP package for [Pathao](https://pathao.com) BD Courier System
 ## Installation
 
 ```bash
-composer require codeboxr/pathao-courier
+# composer require codeboxr/pathao-courier
+```
+Follow the image To Install
+
+1. Add accordingly to `composer.json`
+
+![Alt text](image.png)
+
+2. Run this cmd
+```bash
+  composer require codeboxr/pathao-courier
 ```
 
 ### vendor publish (config)
