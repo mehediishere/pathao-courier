@@ -33,7 +33,7 @@ class OrderApi extends BaseApi
         ]);
 
         $response = $this->authorization()->send("POST", "aladdin/api/v1/orders", $array);
-        return $response->data;
+        return $response;
     }
 
     /**

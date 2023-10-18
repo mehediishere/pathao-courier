@@ -150,6 +150,8 @@ class BaseApi
             if ($e->getCode() == 401) {
                 $message = "Unauthorized";
                 $errors  = [];
+            }elseif ($e->getCode() == 422){
+                return json_decode($e->getResponse()->getBody()->getContents());
             } else {
                 $response = json_decode($e->getResponse()->getBody()->getContents());
                 $message  = $response->message;
